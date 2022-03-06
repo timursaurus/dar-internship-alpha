@@ -4,5 +4,6 @@ import windi from 'vite-plugin-windicss'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), windi()]
+  plugins: [react(), windi()],
+  base: '/dar-internship-alpha/'
 })
